@@ -1,0 +1,32 @@
+What is Javascript?
+It is a object based programming language used to convert static page into dynamic page.
+
+Variable:
+	used to store data/values(datatypes)
+	It is dynamic in nature- no need to mention datatype for declaring.
+	Scope:
+	   1.Global
+	   2.Local/script
+	   3.block
+	Types:
+	    1.var
+	    2.let
+	    3.const
+
+Data Type
+
+primitive
+	number 
+	string
+	Boolean 
+	undefined
+	null
+	big int
+
+Non Primitive
+	Class 
+	objects 
+	functions 
+	array 
+	map 
+	set

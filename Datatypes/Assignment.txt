@@ -1,0 +1,108 @@
+Q. Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+
+
+Data Types:
+
+Data types are used to specify the type of data that a variable can hold. They define the nature of the data, which determines what operations can be performed on the variable.
+
+(i) Primitive Data Types:
+Primitive data types are basic types that represent single values. They are immutable, meaning their value cannot be changed after they are assigned.
+
+Examples of Primitive Data Types:
+
+1. Number: Represents numeric values, including integers, floats, decimals, and exponents.
+  
+   let z = 2;
+   console.log(z); // Output: 2
+   
+
+2. String: Represents a sequence of characters, enclosed in single quotes, double quotes, or backticks.
+   
+   let userName = "Akshay";
+   console.log(userName); // Output: Akshay
+   
+
+3. Boolean: Represents a logical value that can either be `true` or `false`.
+  
+   let isActive = true;
+   console.log(isActive); // Output: true
+   
+
+4. Undefined: Indicates that a variable is declared but not initialized with a value.
+   
+   let a;
+   console.log(a); // Output: undefined
+   
+
+5. Null: Represents the intentional absence of any object or value.
+   
+   let b = null;
+   console.log(b); // Output: null
+  
+
+6. Symbol (ES6+): Represents a unique and immutable value primarily used as object property keys.
+ 
+   let sym = Symbol("unique");
+   console.log(sym); // Output: Symbol(unique)
+   
+
+7. BigInt (ES11+): Represents large integers beyond the range of the Number type.
+  
+   let big = 1234567890123456789012345678901234567890n;
+   console.log(big); // Output: 1234567890123456789012345678901234567890n
+   
+
+(ii) Non-Primitive Data Types:
+Non-primitive data types, also known as reference types, can store multiple values and are mutable, meaning they can be modified after creation.
+
+Examples of Non-Primitive Data Types:
+
+1. Class: A blueprint for creating objects, specifying the properties and methods that the objects will have.
+   
+   class Person {
+     constructor(name, age) {
+       this.name = name;
+       this.age = age;
+     }
+   }
+   let person1 = new Person("Akshay", 20);
+   console.log(person1); // Output: Person { name: 'Akshay', age: 20 }
+   
+
+2. Object: A collection of key-value pairs where each key (or property) is associated with a value.
+ 
+   let user = {
+     name: "Akshay",
+     age: 20
+   };
+   console.log(user); // Output: { name: 'Akshay', age: 20 }
+   
+
+3. Function: A reusable block of code that can be executed when invoked.
+   
+   function greet(name) {
+     return `Hi, ${name}!`;
+   }
+   console.log(greet("Akshay")); // Output: Hi, Akshay!
+   
+
+4. Array: An ordered collection of elements, which can be of different types.
+
+   let cars = ["Mercedes Benz", "Ferrari", "Audi"];
+   console.log(cars); // Output: [ 'Mercedes Benz', 'Ferrari', 'Audi' ]
+
+
+5. Set: A collection of unique values.
+ 
+   let uniqueValues = new Set([1, 2, 3, 3]);
+   console.log(uniqueValues); // Output: Set { 1, 2, 3 }
+   
+
+6. Map: A collection of key-value pairs, where keys can be any value (not just strings or symbols).
+  
+   let map = new Map();
+   map.set('name', 'Akshay');
+   map.set('age', 20);
+   console.log(map); // Output: Map { 'name' => 'Akshay', 'age' => 20 }
+  
+
