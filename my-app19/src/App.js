@@ -1,20 +1,20 @@
-import React from "react";
-import FBCPRopExample from "./propexample/FBCPRopExample";
+// import React from "react";
+// import FBCPRopExample from "./propexample/FBCPRopExample";
 
-function App() {
+// function App() {
  
-  return (
-    <div>
-     <FBCPRopExample 
-      username="Mahesh"
-      isLoggedin={true}
-      profiles={["snap","insta","facebook","X"]}
-     />
-    </div>
-  );
-}
+//   return (
+//     <div>
+//      <FBCPRopExample 
+//       username="Mahe+sh"
+//       isLoggedin={true}
+//       profiles={["snap","insta","facebook","X"]}
+//      />
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;
 
 
 // import React, { Component } from "react";
@@ -39,3 +39,39 @@ export default App;
 //     );
 //   }
 // }
+
+
+//Props.children
+
+// import React from 'react'
+// import PropsChildren from './propexample/PropsChildren'
+// import SubChildProps from './propexample/SubChildProps'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <PropsChildren username="Akshay" company="Google">
+//         <h1>This data is passing as props to child</h1>
+//         <SubChildProps></SubChildProps>
+//       </PropsChildren>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+import React from 'react'
+// import CBCStateEg from './stateexamples/CBCStateEg'
+import FBCStateEg from './stateexamples/FBCStateEg'
+
+const App = () => {
+  return (
+    <div>
+      {/* <CBCStateEg/> */}
+      <FBCStateEg/>
+    </div>
+    )
+}
+
+export default App
