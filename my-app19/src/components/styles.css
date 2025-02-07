@@ -1,0 +1,13 @@
+.heading{
+    background-color: purple;
+    color:white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-style{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -63,13 +63,15 @@
 
 import React from 'react'
 // import CBCStateEg from './stateexamples/CBCStateEg'
-import FBCStateEg from './stateexamples/FBCStateEg'
+// import FBCStateEg from './stateexamples/FBCStateEg'
+import FunctionalComp from './components/FunctionalComp'
 
 const App = () => {
   return (
     <div>
       {/* <CBCStateEg/> */}
-      <FBCStateEg/>
+      {/* <FBCStateEg/> */}
+      <FunctionalComp clgname='MRU' location='HYD' apply={true} />
     </div>
     )
 }
