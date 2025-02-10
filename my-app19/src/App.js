@@ -62,11 +62,13 @@
 
 
 import React from 'react'
+import UseEffectEg from './hookexample/UseEffectEg'
 // import CBCStateEg from './stateexamples/CBCStateEg'
 // import FBCStateEg from './stateexamples/FBCStateEg'
 // import FunctionalComp from './components/FunctionalComp'
-import ClassComponent from './components/ClassComponent'
-import Form from './components/Form'
+// import ClassComponent from './components/ClassComponent'
+// import Form from './components/Form'
+
 
 const App = () => {
   return (
@@ -75,7 +77,8 @@ const App = () => {
       {/* <FBCStateEg/> */}
       {/* <FunctionalComp clgname='MRU' location='HYD' apply={true} /> */}
       {/* <ClassComponent/> */}
-      <Form/>
+      {/* <Form/> */}
+      <UseEffectEg/>
     </div>
     )
 }
