@@ -62,7 +62,8 @@
 
 
 import React from 'react'
-import UseEffectEg from './hookexample/UseEffectEg'
+import RefExample from './hookexample/RefExample'
+// import UseEffectEg from './hookexample/UseEffectEg'
 // import CBCStateEg from './stateexamples/CBCStateEg'
 // import FBCStateEg from './stateexamples/FBCStateEg'
 // import FunctionalComp from './components/FunctionalComp'
@@ -78,7 +79,8 @@ const App = () => {
       {/* <FunctionalComp clgname='MRU' location='HYD' apply={true} /> */}
       {/* <ClassComponent/> */}
       {/* <Form/> */}
-      <UseEffectEg/>
+      {/* <UseEffectEg/> */}
+      <RefExample/>
     </div>
     )
 }
