@@ -1,0 +1,77 @@
+/* navbar.module.css */
+body {
+  padding-top: 100px; /* Adjust this value based on your Navbar height */
+}
+
+#navBlock {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  #navBlock article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logoBlock img {
+    height: 50px;
+    width: auto;
+    cursor: pointer;
+  }
+  
+  .menuBlock ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menuBlock ul li {
+    display: inline-block;
+  }
+  
+  .menuBlock ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .menuBlock ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .menuBlock ul {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      position: absolute;
+      background-color: #fff;
+      right: 20px;
+      top: 60px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      border-radius: 4px;
+    }
+  
+    .menuBlock.active ul {
+      display: flex;
+    }
+  
+    .menuToggle {
+      display: block;
+      cursor: pointer;
+      font-size: 24px;
+    }
+  }
+  
